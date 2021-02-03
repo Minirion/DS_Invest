@@ -1,2 +1,2 @@
-# monster-hunter-codex-back
-API for Monster Hunter Codex mini app (Checkpoint 4 WCS)
+# DS_Invest_Back
+API for DS_Invest, consulting CGP (checkpoint 4 WCS)
