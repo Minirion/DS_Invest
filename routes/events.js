@@ -3,10 +3,10 @@ const connection = require("../db");
 
 const router = express.Router();
 
-router.get("/:events", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const eventList = await connection.query(
-      `SELECT date, name_event, description FROM event;`,
+      `SELECT date, name_event, description, theme FROM event;`,
     )
     console.log(eventList)
     res.status(200).json(eventList)

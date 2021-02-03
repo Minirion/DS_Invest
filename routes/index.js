@@ -1,5 +1,5 @@
 // const thingsRoutes = require('./things');
-const getEventList = require ('./getEventList')
+const getEventList = require ('./events')
 
 module.exports = (app) => {
   app.use("/api/eventslist", getEventList)
