@@ -48,6 +48,8 @@ CREATE TABLE IF NOT EXISTS `dsinvest`.`event` (
   `date` DATE NULL,
   `name_event` VARCHAR(45) NULL,
   `theme` VARCHAR(100) NULL,
+  `lieu` VARCHAR(100) NULL,
+  `number_participants` INT NULL,
   `description` VARCHAR(1000) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
