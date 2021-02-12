@@ -17,4 +17,18 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/:name_event", async (req, res) => {
+
+  const { name_event } = req.params;
+
+  try {
+    const event = await connection.query(`SELECT * FROM event WHERE name_event = ?`, [name_event]);
+    console.log(event);
+    res.status(200).json(event);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send(err);
+  }
+});
+
 module.exports = router;

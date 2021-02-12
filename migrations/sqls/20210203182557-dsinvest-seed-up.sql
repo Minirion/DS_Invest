@@ -1,5 +1,7 @@
 INSERT INTO event (date, description, name_event, theme, lieu, number_participants) VALUES
-('2021-03-03', "bla bla bla bla", "Comment réduire mes impôts ?", "Tips", "Tournefeuille", "14"),
-('2021-04-04', "blo blo blo blo", "Investir dans l'immobilier : loi Pinel", "Dev. Perso", "Toulouse", "35"),
-('2021-04-04', "blo blo blo blo", "Investir dans l'immobilier : loi Pinel", "Immobilier", "Toulouse", "35"),
-('2021-05-05', "bli bli bli bli", "Investir dans l'immoblier, où ?", "Immobilier", "Toulouse", "4");
+('2021-03-03', "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis fringilla urna, vitae semper nulla. Phasellus ut nunc vitae lorem gravida sagittis. Donec rutrum sem a ligula aliquet consectetur sed at enim.", "Réduire mes impôts", "Tips", "Tournefeuille", "14"),
+('2021-04-04', "Donec posuere dictum odio tempor condimentum. Integer ornare sollicitudin tellus eu efficitur. Curabitur faucibus quam sed vulputate vehicula. Nam sit amet ante odio.", "Mon pourquoi", "Dev. Perso", "Toulouse", "35"),
+('2021-04-04', "Duis quis vulputate tortor, a lacinia diam. Nulla dictum elit eget aliquam condimentum. Suspendisse porttitor, nisl pharetra ornare tempus, dolor enim elementum dui, ut malesuada mauris ligula ut dui.", "Investir dans l'immobilier : loi Pinel", "Investissement", "Toulouse", "35"),
+('2021-05-05', "Quisque sagittis, ante ut aliquet gravida, nisi turpis luctus elit, ac facilisis odio velit vel turpis. Donec commodo euismod fermentum.", "Les villes où il fait bon d'investir", "Immobilier", "Toulouse", "4"),
+('2021-06-04', "Duis quis vulputate tortor, a lacinia diam. Nulla dictum elit eget aliquam condimentum. Suspendisse porttitor, nisl pharetra ornare tempus, dolor enim elementum dui, ut malesuada mauris ligula ut dui.", "Prime d'entreprise, des trésors à découvrir", "Investissement", "Toulouse", "35"),
+('2021-05-07', "Quisque sagittis, ante ut aliquet gravida, nisi turpis luctus elit, ac facilisis odio velit vel turpis. Donec commodo euismod fermentum.", "Prêt à taux réduit, le dénicher !", "Immobilier", "Toulouse", "4");

@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `dsinvest`.`user` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `mail` VARCHAR(45) NULL,
-  `comment_id` INT NOT NULL,
+  `comment_id` INT NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_user_comment_idx` (`comment_id` ASC) VISIBLE,
   CONSTRAINT `fk_user_comment`
